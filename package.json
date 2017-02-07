@@ -1,0 +1,18 @@
+{
+  "name": "riseup",
+  "version": "0.1.0",
+  "description": "a riseup trademark portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "styleswatch": "node-sass -wo build/ styles.scss",
+    "styles": "node-sass -o build/ styles.scss --output-style compressed",
+    "build": "npm run styles",    
+    "test": "npm run styleswatch"
+  },
+  "author": "Alejandro Moreno",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "node-sass": "^4.5.0"
+  }
+}
