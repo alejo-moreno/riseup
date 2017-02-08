@@ -3,17 +3,34 @@
 }
 
 .slick-next {        
+    right: 70px;
     &:before{
             content: "\e904";
             font-family: 'riseup';                        
             font-weight: bold;              
+            font-size: 25px;
     }    
 }
 
 .slick-prev {        
+    left: 70px;
+    z-index: 1;
     &:before{
             content: "\e902";
             font-family: 'riseup';                        
             font-weight: bold;                                               
+            font-size: 25px;
     }    
+}
+
+.slick-dots {
+    bottom: 3px;
+    li {
+        button {
+            &:before {
+                color: #fff !important;
+            }
+        }
+        
+    }
 }

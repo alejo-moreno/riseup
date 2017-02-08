@@ -50,13 +50,14 @@
     }
     @media (min-width: $screen-md-min) { 
             background: #3d3e5d;
-            .featured-carousel{
-                max-width: 1027px;
+            .featured-carousel{                
                 margin: 0 auto;
             }
             .campaign-slide {
+                height: auto;
                  &-featured-img {
-                    height: auto;
+                    margin: 0 auto;                
+                    max-width: 1027px;
                  }
                  &-logo {                    
                     max-width: 250px;

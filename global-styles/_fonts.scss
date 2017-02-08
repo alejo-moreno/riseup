@@ -53,9 +53,7 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ru-close:before {
-  content: "\e901";
-}
+
 .ru-arrow-left:before {
   content: "\e902";
 }
@@ -76,4 +74,7 @@ i {
 }
 .ru-ws:before {
   content: "\e907";
+}
+.ru-close:before {
+  content: "\e901";
 }
